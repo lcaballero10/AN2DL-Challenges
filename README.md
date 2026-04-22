@@ -9,6 +9,11 @@ conda activate ai2dl
 # Install libraries and dependencies
 pip install -r requirements.txt
 ```
+Or use the .yml file:
+```bash
+conda env create -f environment.yml
+conda activate ai2dl
+```
 ### Tested environment
 - Python 3.12.12
 
