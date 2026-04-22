@@ -22,13 +22,13 @@ The course offered two challenges.
 
 ### Challenge 1 
 Focused on the development of a Time Series Classification Algorithm to assign each data sequence to one of 3 possible classes. The goal is to predict the subject's true pain status, given a dataset containing time samples regarding temporal dynamics of the body joints and pain perception.
-All our development for this challenge can be accessed in [link].
+All our development for this challenge can be accessed in [Challenge 1](https://github.com/lcaballero10/AN2DL-Challenges/tree/main/Challenge_1).
 
 
 
 ### Challenge 2
 Focused on the development of an Image Classification Algorithm to assign each image to one of 4 possible classes corrisponding to molecular subtypes identifying a potential disease within the tissue. The goal is analyze microscopic tissue morphology and predict the correct molecular subtype, given a dataset containing an image with its corresponding bynary mask.
-All our development for this challenge can be accessed in [link].
+All our development for this challenge can be accessed in [Challeng 2](https://github.com/lcaballero10/AN2DL-Challenges/tree/main/Challenge_2).
 
 ## Results
 
