@@ -11,7 +11,7 @@ The course offered two challenges to
 ## Results
 
 ## Acknowledgement
-The code exposed in this repository have been developed by the group "Va Alianza Toca La U" composed by:
+The code exposed in this repository have been developed by the course group composed by:
 - Luis Caballero (@lcaballero10)
 - Daffer Queque ()
 - Reinaldo Toledo ()
