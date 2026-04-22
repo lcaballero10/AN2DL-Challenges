@@ -28,7 +28,7 @@ All our development for this challenge can be accessed in [Challenge 1](https://
 
 ### Challenge 2
 Focused on the development of an Image Classification Algorithm to assign each image to one of 4 possible classes corrisponding to molecular subtypes identifying a potential disease within the tissue. The goal is analyze microscopic tissue morphology and predict the correct molecular subtype, given a dataset containing an image with its corresponding bynary mask.
-All our development for this challenge can be accessed in [Challeng 2](https://github.com/lcaballero10/AN2DL-Challenges/tree/main/Challenge_2).
+All our development for this challenge can be accessed in [Challenge 2](https://github.com/lcaballero10/AN2DL-Challenges/tree/main/Challenge_2).
 
 ## Results
 
