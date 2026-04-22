@@ -13,8 +13,8 @@ The course offered two challenges to
 ## Acknowledgement
 The code exposed in this repository have been developed by the course group composed by:
 - Luis Caballero - [@lcaballero10](https://github.com/lcaballero10)  
-- Daffer Queque ()
-- Reinaldo Toledo ()
-- Camilo ()
+- Daffer Queque - [@djetshu](https://github.com/djetshu)
+- Reinaldo Toledo - [@]()
+- Camilo Mejia - [@]()
 
 I would like to thank the group for their commitment and contribution to this project.
