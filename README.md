@@ -34,7 +34,7 @@ All our development for this challenge can be accessed in [Challenge 2](https://
 Both challenges were evaluated based on the F1-score:
 
 ### Challenge 1
-Public = 0.95381
+Public = 0.95381 ..
 Private = 0.95584
 
 ### Challenge 2
