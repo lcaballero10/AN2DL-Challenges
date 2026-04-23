@@ -31,6 +31,16 @@ Focused on the development of an Image Classification Algorithm to assign each i
 All our development for this challenge can be accessed in [Challenge 2](https://github.com/lcaballero10/AN2DL-Challenges/tree/main/Challenge_2).
 
 ## Results
+Both challenges were evaluated based on the F1-score:
+
+### Challenge 1
+Public = 0.95381
+Private = 0.95584
+
+### Challenge 2
+Public = 0.3994
+
+### Challenge 2: F1-score = 
 
 ## Acknowledgement
 The code exposed in this repository have been developed by the course group composed by:
