@@ -2,7 +2,7 @@
 Repository containing the development of the code used for the challenges in the Artificial Neural Networks and Deep Learning course.
 
 ## Installation
-Make sure to install the libraries and all the dependencias within a conda environment
+Install the libraries and all the dependencias within a conda environment
 ```bash
 conda create -n ai2dl python=3.12
 conda activate ai2dl
