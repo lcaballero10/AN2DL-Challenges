@@ -40,8 +40,6 @@ Private = 0.95584
 ### Challenge 2
 Public = 0.3994
 
-### Challenge 2: F1-score = 
-
 ## Acknowledgement
 The code exposed in this repository have been developed by the course group composed by:
 - Luis Caballero - [@lcaballero10](https://github.com/lcaballero10)  
