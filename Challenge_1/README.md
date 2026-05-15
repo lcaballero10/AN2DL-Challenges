@@ -84,3 +84,7 @@ Many tests were performed to determined the most suitable architecture for the c
 Then, a second grid search was performed to determine the propers window-size and stride, as well as 5-fold cross validation was conducted. As result, we obtained that a window-size of 40 and a stride of 20 are the best parameters for the sliding-window sequence construction.
 
 Finally, to evaluate the model comprising the CNN, Bi-LSTM and attention layers, a combination of LSTM units and number of hidden layers was performed, obtaining the architecture with 64 units in both the CNN and LSTM layers and 2 LSTM hidden layers as the best configuration with the highest average F1-score.
+
+### Training and inferences
+
+A detailed content of the training and inferences can be seen in the following [Python Notebook](https://github.com/lcaballero10/AN2DL-Challenges/blob/main/Challenge_1/challenge1_VaAlianzaTocaLaU_Training.ipynb).
