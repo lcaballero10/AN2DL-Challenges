@@ -16,6 +16,8 @@ A completed and detailed analysis over the dataset can be found in the following
 
 ## Methods
 
+### Preprocessing
+
 Prior to perform the model design, the categorical attributes, such as the number of legs, number of hands, number of eyes, were encoded into ordinal numerical values; while the continues variables were normalized within a range of 0 to 1.
 
 <table>
@@ -56,3 +58,27 @@ Prior to perform the model design, the categorical attributes, such as the numbe
 
 </tr>
 </table>
+
+### Sliding-Window Sequence Construction
+
+A sliding-window functions was developed to segment each of the time series into fixed-length overlapping sequences. A proper window-size and stride must be defined to produce the uniform input segments and assign to each of them a pain label.
+
+After performing an iterative search for the proper values, the results show that a window-size of 40 and stride of 20 achieved the best performance.
+
+### Model Architecture
+A standard deep learning architecture for time-series classification was implemented. A multi-layer bidirectional LSTM networks was considered, including dropout regularization between recurrent layers. Besides, each direction of the LSTM uses a hidden state size of 64 units. Moreover, regularization was implemented prior testing with different dropout rates, K2 weight decays and and optional L1 decays.
+
+
+### Experiments
+
+Many tests were performed to determined the most suitable architecture for the current problem. An extensive grid search to find the hyperparameters considering the GRU and LSTM, in both unidirectional and bidirectional forms was performed. A bi-directional LSTM classifiera was found as the most suitable model architecture. The results obtained for the hyperparameters are shown in the following table:
+
+| Hyperparameters | Value |
+|-----------|-------|
+| Learning rate | 5e-4 |
+| CNN units | 64 |
+| Dropout rate | 2e-1 |
+| L1 lambda | 0 |
+| L2 lambda | 1e-4 |
+
+Then, a second grid search was performed to determine the propers window-size and stride, as well as 5-fold cross validation was conducted. As result, we obtained that a window-size of 40 and a stride of 20 are the best parameters for the sliding-window sequence construction.
