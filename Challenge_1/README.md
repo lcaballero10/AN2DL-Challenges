@@ -88,3 +88,11 @@ Finally, to evaluate the model comprising the CNN, Bi-LSTM and attention layers,
 ### Training and inferences
 
 A detailed content of the training and inferences can be seen in the following [Python Notebook](https://github.com/lcaballero10/AN2DL-Challenges/blob/main/Challenge_1/challenge1_VaAlianzaTocaLaU_Training.ipynb).
+
+### Results
+
+We reached the following f1-scores in the Kaggle competition:
+#### Public:
+F1-score = 0.95381
+#### Private:
+F1-score = 0.95584
