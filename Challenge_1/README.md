@@ -23,34 +23,34 @@ Prior to perform the model design, the categorical attributes, such as the numbe
 
 <td width="33%" valign="top">
 
-## Baseline
+## Number of legs
 
-| Parameter | Value |
+| n_legs | Ordinal value |
 |-----------|-------|
-| Batch Size | 32 |
-| LR | 1e-3 |
+| one+peg_leg | 1 |
+| two | 2 |
 
 </td>
 
 <td width="33%" valign="top">
 
-## Fine-Tuning
+## Number of hands
 
-| Parameter | Value |
+| n_hands | Ordinal value |
 |-----------|-------|
-| Batch Size | 16 |
-| LR Backbone | 1e-5 |
+| one+hook_hand | 1 |
+| two | 2 |
 
 </td>
 
 <td width="33%" valign="top">
 
-## Results
+## Number of eyes
 
-| Model | F1 |
+| n_eyes | Ordinal value |
 |------|----|
-| ConvNeXt Small | 0.89 |
-| ResNet18 | 0.82 |
+| one+eye_patch | 1 |
+| two | 2 |
 
 </td>
 
