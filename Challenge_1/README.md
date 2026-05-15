@@ -12,4 +12,4 @@ The dataset presents class imbalance, having the "no_paint" category as the most
 
 Many analysis over the joint variables time series were performed in order to find any possible correlations among themselves. Besides, data in "joint_30" variable is constant in every time step for all the individuals, so it was discarded from further analysis.
 
-A completed and detailed analysis over the dataset can be found in the following [Python Notebook]{https://github.com/lcaballero10/AN2DL-Challenges/blob/main/Challenge_1/challenge1_VaAlianzaTocaLaU_Exploration.ipynb}.
+A completed and detailed analysis over the dataset can be found in the following [Python Notebook](https://github.com/lcaballero10/AN2DL-Challenges/blob/main/Challenge_1/challenge1_VaAlianzaTocaLaU_Exploration.ipynb).
