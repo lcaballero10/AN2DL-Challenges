@@ -1,5 +1,7 @@
 # Challenge 1
 
+This document contains the description, data analysis, methodology used and experiments performed for Challenge 1 of the Artificial Neural Networks and Deep Learning course.
+
 ## Description
 A Multivariate time series data collection were give, each of them consisting on 180 time steps and measurements from various input channels. The goal of the project is to assign a single pain category (no_pain, low_pain, high_pain) to each user based on the recorded signals.
 
