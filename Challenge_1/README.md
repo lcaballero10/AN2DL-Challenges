@@ -70,6 +70,11 @@ After performing an iterative search for the proper values, the results show tha
 ### Model Architecture
 A standard deep learning architecture for time-series classification was implemented. A multi-layer bidirectional LSTM networks was considered, including dropout regularization between recurrent layers. Besides, each direction of the LSTM uses a hidden state size of 64 units. Moreover, regularization was implemented prior testing with different dropout rates, K2 weight decays and and optional L1 decays.
 
+The following figure depicts the obtained model architecture composed by a CNN layer, a Bi-LSTM layer, attention layers and a linear output layer.
+
+<p align="center">
+  <img src="../media/Challenge 1/model_final_chall1.png" alt="Model architecture Challenge 1" width="400">
+</p>
 
 ### Experiments
 
@@ -88,6 +93,12 @@ Then, a second grid search was performed to determine the propers window-size an
 Finally, to evaluate the model comprising the CNN, Bi-LSTM and attention layers, a combination of LSTM units and number of hidden layers was performed, obtaining the architecture with 64 units in both the CNN and LSTM layers and 2 LSTM hidden layers as the best configuration with the highest average F1-score.
 
 ### Training and inferences
+
+Having as reference the model architecture shown above, the loss and score histories in average of the 5-fold cross validation is shown as follows.
+
+<p align="center">
+  <img src="../media/Challenge 1/best_loss_score.jpeg" alt="Model architecture Challenge 1" width="500">
+</p>
 
 A detailed content of the training and inferences can be seen in the following [Python Notebook](https://github.com/lcaballero10/AN2DL-Challenges/blob/main/Challenge_1/challenge1_VaAlianzaTocaLaU_Training.ipynb).
 
