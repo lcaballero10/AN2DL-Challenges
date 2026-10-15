@@ -17,8 +17,26 @@ As part of the dataset analysis, a pre-trained ConvNeXt model was used for the e
 
 ## Methods
 
+After analyzing the data, it was obviously noticed that some preprocessing must be applied, as corrupted images (noise) was present in our dataset. Besides, many deep learning concepts and techniques seen in the course, such as grid search, data augmentation, k-fold cross-validation, transfer learning, and others were applied.
+
 ### Preprocessing, data augmentation and encoding
 
+As initial step, images were cropped (considering padding), resized and normalized. Besides, a data augmentation pipelane was employed to enhance generalization including transformations, horizontal/vertical flips, Gaussian blurs, among others. A test-time augmentation step was applied at inference, aggregating this way predictions from multiple views. Finally, the molecular subtypes were decoding according to the following table:
+
+| Molecular Subtype | Encoded value |
+|:-----------:|:-------:|
+| Luminal A | 0 |
+| Lumimal B | 1 |
+| HER2(+) | 2 |
+| Triple Negative | 3 |
+
+
 ### Model architecture and transfer learning
+
+A pre-trained model was used (specifically the ```ConvNeXt``` neural network). The original head was replaced with a head composed of fully connected layers considering dropout regularization. As a classification problem was being solved, a cross-entropy loss was employed. An ideal learning rate was selected to optimize the training and generalization enhancements techniques, such as weight decay, dropout, and early stopping were used.
+
+Besides, to improve the robustness of the solution, a test-time augmentation (TTA) step was applied at inference time.
+
+## Experiments
 
 ## Results
